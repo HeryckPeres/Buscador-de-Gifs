@@ -1,19 +1,42 @@
-# buscador_de_gifs
+# Buscador de GIFs
 
-A new Flutter project.
+Bem-vindo ao Buscador de GIFs, um aplicativo Flutter que permite aos usuários pesquisar e visualizar GIFs do Giphy.
 
-## Getting Started
+## Visão Geral
 
-This project is a starting point for a Flutter application.
+O Buscador de GIFs é um aplicativo móvel desenvolvido em Flutter que permite aos usuários pesquisar e visualizar GIFs da plataforma Giphy. Com uma interface simples e intuitiva, os usuários podem explorar uma vasta coleção de GIFs e compartilhá-los.
 
-A few resources to get you started if this is your first Flutter project:
+## Captura de Tela
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Gerador-de-Gifs
-# Gerador-de-Gifs
-# Gerador-de-Gifs
+
+
+
+## Funcionalidades
+
+- Pesquisa de GIFs: Os usuários podem pesquisar GIFs inserindo palavras-chave na barra de pesquisa.
+- Visualização de GIFs: Ao selecionar um GIF da lista de resultados, os usuários podem visualizá-lo em tela cheia.
+- Compartilhamento de GIFs: Os usuários podem compartilhar GIFs com amigos pressionando longamente sobre eles.
+- Carregamento Infinito: Ao rolar para o final da lista de GIFs, mais resultados são carregados automaticamente.
+
+## Pré-requisitos
+
+Configurando a chave da API:
+   - Vá para o site da [developers.giphy](https://developers.giphy.com/) e registre-se para obter uma chave de API gratuita.
+   - Insira sua chave de API no arquivo `main.dart` do projeto, substituindo `[coloque sua chave aqui]` pela sua chave de API.
+
+Flutter instalado
+Dependências listadas no arquivo `pubspec.yaml`
+
+Clone este repositório
+`https://github.com/HeryckPeres/Conversor-de-moedas-API-Flutter.git`
+
+Navegue até o diretório do projeto
+`cd contador_de_pessoas`
+
+Execute o aplicativo
+`flutter run`
+
+## Uso
+- Insira um valor em Reais no campo correspondente.
+- O aplicativo calculará automaticamente os equivalentes em Dólares e Euros com base nas taxas de câmbio atualizadas.
