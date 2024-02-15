@@ -10,6 +10,7 @@ O Buscador de GIFs é um aplicativo móvel desenvolvido em Flutter que permite a
 
 
 
+![Design sem nome(7)](https://github.com/HeryckPeres/Buscador-de-Gifs/assets/54678836/e54cd084-e363-4c5d-ba6c-9f7265108c04)
 
 
 ## Funcionalidades
@@ -22,10 +23,12 @@ O Buscador de GIFs é um aplicativo móvel desenvolvido em Flutter que permite a
 ## Pré-requisitos
 
 Configurando a chave da API:
+
    - Vá para o site da [developers.giphy](https://developers.giphy.com/) e registre-se para obter uma chave de API gratuita.
    - Insira sua chave de API no arquivo `HomePage.dart` do projeto, substituindo `[coloque sua chave aqui]` pela sua chave de API.
 
-Flutter instalado
+
+## Flutter instalado
 Dependências listadas no arquivo `pubspec.yaml`
 
 Clone este repositório
