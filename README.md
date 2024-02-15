@@ -23,7 +23,7 @@ O Buscador de GIFs é um aplicativo móvel desenvolvido em Flutter que permite a
 
 Configurando a chave da API:
    - Vá para o site da [developers.giphy](https://developers.giphy.com/) e registre-se para obter uma chave de API gratuita.
-   - Insira sua chave de API no arquivo `main.dart` do projeto, substituindo `[coloque sua chave aqui]` pela sua chave de API.
+   - Insira sua chave de API no arquivo `HomePage.dart` do projeto, substituindo `[coloque sua chave aqui]` pela sua chave de API.
 
 Flutter instalado
 Dependências listadas no arquivo `pubspec.yaml`
@@ -32,11 +32,12 @@ Clone este repositório
 `https://github.com/HeryckPeres/Conversor-de-moedas-API-Flutter.git`
 
 Navegue até o diretório do projeto
-`cd contador_de_pessoas`
+`cd buscador_de_gifs`
 
 Execute o aplicativo
 `flutter run`
 
 ## Uso
-- Insira um valor em Reais no campo correspondente.
-- O aplicativo calculará automaticamente os equivalentes em Dólares e Euros com base nas taxas de câmbio atualizadas.
+- Pesquisar GIFs: Se você estiver procurando por um GIF específico, use a barra de pesquisa na parte superior da tela. Digite uma palavra-chave ou frase que descreva o GIF que você deseja encontrar e toque no ícone de pesquisa.
+- Visualizar um GIF: Quando encontrar um GIF interessante, toque nele para visualizá-lo em tela cheia.
+- Compartilhar um GIF: Se você quiser compartilhar um GIF com seus amigos, mantenha pressionado o GIF desejado até que um menu de opções apareça. Em seguida, selecione a opção "Compartilhar" e escolha o aplicativo ou método de compartilhamento desejado.
